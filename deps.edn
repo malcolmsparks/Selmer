@@ -1,3 +1,5 @@
 {:paths ["src" "resources"]
  :deps
- {json-html/json-html {:mvn/version "0.4.7"}}}
+ {commons-codec/commons-codec {:mvn/version "1.15"}
+  json-html/json-html {:mvn/version "0.4.7"}
+  cheshire/cheshire {:mvn/version "5.10.0"}}}
